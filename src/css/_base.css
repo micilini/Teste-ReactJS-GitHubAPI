@@ -1,0 +1,51 @@
+body {
+    word-wrap: break-word;
+}
+
+* { padding: 0; margin: 0; }
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+	background:#0984e3;
+}
+
+.height-100percent {
+    height: 100%;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.container{
+	padding:0 !important;
+	margin:0 !important;
+	width:100%;
+}
+
+a{
+	color:white !important;
+}
+
+.repo-title{
+	text-align:center;
+}
+
+.project-name{
+	font-size:14px;
+}
+
+.repo-wrapper{
+	background:white;
+}
+
+.repos-wrapper{
+	background:#0984e3;
+	border-right:1px dashed #6c5ce7;
+}
+
+.no-more-commits{
+	font-style: italic;
+	text-decoration:underline;
+}
